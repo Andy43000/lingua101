@@ -1,0 +1,40 @@
+
+#amcg2014
+
+import random
+while True: #initiate loop
+
+
+        d = {'ei':'no', 'kiitos':'thanks','kenties':'maybe','joo':'yes',
+             'viikko':'week', 'vuosi':'year', 'tanaan':'today', 'huominem':'tomorrow',
+             'eilen':'yesterday', 'kello':'o clock', 'voida':'can','kayttaa':'use',
+             'tehda':'do','menna':'go','tulla':'come','nauraa':'laugh', 'tehda':'make',
+             'kaukana':'far', 'pieni':'small','hyva':'good','kaunis':'beautiful',
+             'vaikea':'difficult', 'helppo':'easy', 'huono':'bad', 'lahella':'near',
+             'Hauska tutustua':'nice to meet you', 'hei':'hello', 'hyvaa huomenta':'good morning',
+             'Hyvaa iltapaivaa':'good afternoon','hyvaa yota':'good night','miten voit':'how are you'
+             'herkullista':'delicious','mina olen...':'I am', 'Hyvasti':'Goodbye','kylla':'yes'
+             } #set dictionary
+        question = random.choice(d.keys()) #get random key
+
+        user = raw_input(question, ) #pose question with key and get answer
+
+        print question
+     
+        #d.values
+        
+        answer = d.get(question) #use the key to get its corresponding value.
+
+        print answer
+        
+        if user == answer: #return verdict
+                print 'Correct!'
+
+        #if user == 'exit':
+        #        break
+        else:
+                print 'incorrect!'
+
+        if user == 'exit':
+                break
+
