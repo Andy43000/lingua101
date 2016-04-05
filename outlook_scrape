@@ -1,0 +1,17 @@
+import win32com.client
+
+outlook = win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
+
+inbox = outlook.GetDefaultFolder(6) # "6" refers to the index of a folder - in this case,
+                                    # the inbox. You can change that number to reference
+                                    # any other folder
+messages = inbox.Items
+for message in messages:
+    stringed = message.body
+    output_string = stringed.encode('utf8', 'replace') #needed to handle ASCII errors. 
+
+    with open('C:\Users\UC202512\desktop\OutlookTXT2.txt', 'a') as txtfile:
+        txtfile.write(output_string)
+        
+        
+        #this scrapes the body text of all emails in an open outlook instance. 
