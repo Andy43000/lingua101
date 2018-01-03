@@ -18,7 +18,14 @@
 function test()
 {
     var userInput = document.getElementById("userInput").value;
-    document.write(userInput);
+    var french = [];
+    french.push({question1:'bonjour', answer1:'hello'});
+    french.push({question2:'au revoir', answer2:'goodbye'});
+    for (var key in french) {
+      document.write("key " + key + " has value " + french[key]);
+    }
+
+    //document.write(userInput);
     //dictionary and comparison logic needs to go here
 }
 </script>
