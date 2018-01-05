@@ -9,24 +9,23 @@
 
 <p id="demo"></p>
 
+<p id="test">testing</p>
+
 <script>
-//function myFunction(p1) {
-//    return p1;
-//}
-//document.getElementById("demo").innerHTML = myFunction("word");
 
 function test()
 {
-    var userInput = document.getElementById("userInput").value;
-    var french = [];
-    french.push({question1:'bonjour', answer1:'hello'});
-    french.push({question2:'au revoir', answer2:'goodbye'});
-    for (var key in french) {
-      document.write("key " + key + " has value " + french[key]);
-    }
 
+    //var french = {question:'bonjour', answer:'hello '};
+    var french = ['bonjour', 'hello', 'goodbye'];
+    var userInput = document.getElementById("userInput").value;
+    //french.push({'bonjour','hello'});
+    //french.push({question2:'au revoir', answer2:'goodbye'});
+    //document.write(french['question']);
+    //document.getElementById("test").innerHTML = "new text";
+    document.getElementById("test").innerHTML = (french[Math.floor(Math.random()) * french.length]);
+    //document.write(french[Math.floor(Math.random()) * french.length]);
     //document.write(userInput);
-    //dictionary and comparison logic needs to go here
 }
 </script>
 
