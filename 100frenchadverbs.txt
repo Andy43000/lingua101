@@ -1,0 +1,126 @@
+
+'ei':'no', 'kiitos':'thanks',
+1	absolument	absolutely
+2	actuellement	currently
+3	ailleurs	elsewhere
+4	alors	so
+5	ainsi	thus; so
+6	après	after
+7	assez	quite, fairly
+8	aujourd'hui	today
+9	aussi	as; as well
+10	aussitôt	immediately
+11	autant	as much
+12	autrefois	in the old days
+13	autrement	differently
+14	autour	around
+15	avant	before
+16	avant-hier	on the day before yesterday
+17	avec	with
+18	beaucoup	a lot
+19	bas	low
+20	bien	well
+21	bientôt	soon
+22	brusquement	abruptly
+23	cependant	nonetheless
+24	certes	admittedly
+25	certainement	certainly
+26	ci	here
+27	combien	how much/many
+28	comme	as
+29	comment	how
+30	complètement	completely
+31	d'abord	first
+32	davantage	more
+33	debout	standing
+34	dehors	outside
+35	déjà	already
+36	delà	beyond
+37	demain	tomorrow
+38	depuis	since
+39	dernièrement	lately
+40	désormais	from now on, henceforth
+41	dessus	on top of
+42	devant	in front of
+43	doucement	softly
+44	également	as well/equally
+45	encore	again/still
+46	enfin	finally; eventually
+47	ensemble	together
+48	ensuite	next, then
+49	énormément	enormously
+50	environ	about
+51	facilement	easily
+52	franchement	frankly
+53	gentiment	kindly
+54	guère	hardly
+55	haut	high
+56	heureusement	fortunately
+57	hier	yesterday
+58	ici	here
+59	immédiatement	immediately
+60	jamais	never
+61	là	there
+62	là-bas	over there
+63	là-dedans	in here, in there
+64	là-dessus	on here; on there
+65	largement	greatly; well
+66	légèrement	lightly; slightly
+67	lentement	slowly
+68	loin	far
+69	longtemps	for a long time
+70	lors	when
+71	lors de	during
+72	maintenant	now
+73	mal	poorly; badly
+74	même	even
+75	moins	less
+76	mieux	better
+77	naturellement	naturally
+78	ne	not
+79	non	no; not
+80	oui	yes
+81	parfois	sometimes
+82	partout	everywhere
+83	pas	not
+84	parfaitement	perfectly
+85	peu	few, little
+86	peut-être	perhaps
+87	plutôt	rather
+88	plus	more, ___-er
+89	point	hardly any; almost no
+90	pourquoi	why
+91	pourtant	yet
+92	précédemment	previously
+93	précisément	precisely
+94	premièrement	firstly
+95	près	near
+96	presque	nearly
+97	profondément	profoundly
+98	puis	then
+99	quelque	some
+100	quelque part	somewhere
+101	rapidement	rapidly
+102	rarement	rarely
+103	seulement	only
+104	sérieusement	seriously
+105	simplement	simply
+106	si	as/so
+107	soudain	suddenly
+108	souvent	often
+109	surtout	especially
+110	tant	so much
+111	tantôt	sometimes
+112	tard	late
+113	tellement	so (much)
+114	tôt	early
+115	toujours	always
+116	tout	all
+117	très	very
+118	trop	too much
+119	vite	quickly
+120	vraiment	really
+
+=CONCATENATE(E2,	E3,	E4,	E5,	E6,	E7,	E8,	E9,	E10,	E11,	E12,	E13,	E14,	E15,	E16,	E17,	E18,	E19,	E20,	E21,	E22,	E23,	E24,	E25,	E26,	E27,	E28,	E29,	E30,	E31,	E32,	E33,	E34,	E35,	E36,	E37,	E38,	E39,	E40,	E41,	E42,	E43,	E44,	E45,	E46,	E47,	E48,	E49,	E50,	E51,	E52,	E53,	E54,	E55,	E56,	E57,	E58,	E59,	E60,	E61,	E62,	E63,	E64,	E65,	E66,	E67,	E68,	E69,	E70,	E71,	E72,	E73,	E74,	E75,	E76,	E77,	E78,	E79,	E80,	E81,	E82,	E83,	E84,	E85,	E86,	E87,	E88,	E89,	E90,	E91,	E92,	E93,	E94,	E95,	E96,	E97,	E98,	E99,	E100,	E101,	E102,	E103,	E104,	E105,	E106,	E107,	E108,	E109,	E110,	E111,	E112,	E113,	E114,	E115,	E116,	E117,	E118,	E119,	E120,	E121)
+
+{'absolument':'absolutely','actuellement':'currently','ailleurs':'elsewhere','alors':'so','ainsi':'thus; so','après':'after','assez':'quite, fairly','aujourd'hui':'today','aussi':'as; as well','aussitôt':'immediately','autant':'as much','autrefois':'in the old days','autrement':'differently','autour':'around','avant':'before','avant-hier':'on the day before yesterday','avec':'with','beaucoup':'a lot','bas':'low','bien':'well','bientôt':'soon','brusquement':'abruptly','cependant':'nonetheless','certes':'admittedly','certainement':'certainly','ci':'here','combien':'how much/many','comme':'as','comment':'how','complètement':'completely','d'abord':'first','davantage':'more','debout':'standing','dehors':'outside','déjà':'already','delà':'beyond','demain':'tomorrow','depuis':'since','dernièrement':'lately','désormais':'from now on, henceforth','dessus':'on top of','devant':'in front of','doucement':'softly','également':'as well/equally','encore':'again/still','enfin':'finally; eventually','ensemble':'together','ensuite':'next, then','énormément':'enormously','environ':'about','facilement':'easily','franchement':'frankly','gentiment':'kindly','guère':'hardly','haut':'high','heureusement':'fortunately','hier':'yesterday','ici':'here','immédiatement':'immediately','jamais':'never','là':'there','là-bas':'over there','là-dedans':'in here, in there','là-dessus':'on here; on there','largement':'greatly; well','légèrement':'lightly; slightly','lentement':'slowly','loin':'far','longtemps':'for a long time','lors':'when','lors de':'during','maintenant':'now','mal':'poorly; badly','même':'even','moins':'less','mieux':'better','naturellement':'naturally','ne':'not','non':'no; not','oui':'yes','parfois':'sometimes','partout':'everywhere','pas':'not','parfaitement':'perfectly','peu':'few, little','peut-être':'perhaps','plutôt':'rather','plus':'more, ___-er','point':'hardly any; almost no','pourquoi':'why','pourtant':'yet','précédemment':'previously','précisément':'precisely','premièrement':'firstly','près':'near','presque':'nearly','profondément':'profoundly','puis':'then','quelque':'some','quelque part':'somewhere','rapidement':'rapidly','rarement':'rarely','seulement':'only','sérieusement':'seriously','simplement':'simply','si':'as/so','soudain':'suddenly','souvent':'often','surtout':'especially','tant':'so much','tantôt':'sometimes','tard':'late','tellement':'so (much)','tôt':'early','toujours':'always','tout':'all','très':'very','trop':'too much','vite':'quickly','vraiment':'really'}
