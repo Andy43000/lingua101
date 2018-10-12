@@ -4,36 +4,36 @@
 import random
 while True: #initiate loop
 
-        d = { 'eben':'just',
-                'erst':'first',
-                'natürlich': 'naturally',
-                'vielleicht':'perhaps',
-                'dort':	'there',
-                'auch':'also',
-                'so':'so',
-                'dann':'then',
-                'da':'there',
-                'noch':	'still',
-                'also':'so',
-                'nur'	:'only',
-                'schon':'already',
-                'mehr':'more',
-                'jetzt'	:'now',
-                'immer'	:'always',
-                'sehr'	:'very',
-                'hier'	:'here',
-                'doch'	:'but',
-                'wieder':'again',
-                'eigentlich': 'actually',
-                'oben': 'above',
-                'nun':	'nu',
-                'heute'	: 'today',
-                'weit'	: 'widely'}
+        d = { 'eben ':'just now',
+                'erst ':'first',
+                'natürlich ': 'naturally',
+                'vielleicht ':'perhaps',
+                'dort ':	'there',
+                'auch ':'also',
+                'so ':'so',
+                'dann ':'then',
+                'da ':'there',
+                'noch ':	'still, yet',
+                'also ':'so',
+                'nur '	:'only',
+                'schon ':'already',
+                'mehr ':'more',
+                'jetzt '	:'now',
+                'immer '	:'always',
+                'sehr ':'very',
+                'hier '	:'here',
+                'doch '	:'but, still',
+                'wieder ':'again',
+                'eigentlich ': 'actually',
+                'oben ': 'above',
+                'nun,nu ':	'now',
+                'heute '	: 'today',
+                'weit '	: 'widely, far'}
         question = random.choice(list(d.keys())) #get random key
 
-        user = input(question, ) #pose question with key and get answer
+        user = input(question) #pose question with key and get answer
 
-        print(question)
+        # print(question)
 
         #d.values
 
@@ -41,7 +41,7 @@ while True: #initiate loop
 
         print(answer)
 
-        user_blank = user.strip()
+        user_blank = user.strip() #remove blank spaces
 
         if user_blank == answer: #return verdict
                 print('Correct!')
